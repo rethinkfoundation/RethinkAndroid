@@ -1,4 +1,4 @@
-package com.rethink.rethinkandroid;
+package com.rethink.foundation;
 
 import org.junit.Test;
 

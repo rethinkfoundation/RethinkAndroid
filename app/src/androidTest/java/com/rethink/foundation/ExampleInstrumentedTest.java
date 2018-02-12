@@ -1,4 +1,4 @@
-package com.rethink.rethinkandroid;
+package com.rethink.foundation;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.rethink.rethinkandroid", appContext.getPackageName());
+        assertEquals("com.rethink.foundation", appContext.getPackageName());
     }
 }
