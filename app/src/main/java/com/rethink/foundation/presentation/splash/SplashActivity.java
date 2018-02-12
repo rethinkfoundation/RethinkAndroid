@@ -1,9 +1,11 @@
-package com.rethink.foundation;
+package com.rethink.foundation.presentation.splash;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.rethink.foundation.R;
+
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
