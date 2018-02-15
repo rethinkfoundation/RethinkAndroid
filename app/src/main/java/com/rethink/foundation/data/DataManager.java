@@ -36,4 +36,12 @@ public class DataManager {
     public static DataManager getInstance(RemoteDataManager remoteDataManager, LocalDataManager localDataManager, Context context) {
         return new DataManager(remoteDataManager, localDataManager, context);
     }
+
+    public void setCallBack(DataCallBack callBack) {
+        this.dataCallBack = callBack;
+    }
+
+    public boolean checkFirstTime() {
+        return true;
+    }
 }
