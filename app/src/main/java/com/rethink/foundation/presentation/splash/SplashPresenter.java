@@ -35,7 +35,7 @@ public class SplashPresenter implements SplashContract.Presenter, DataCallBack {
     @Override
     public void checkFirstTime() {
         if (dataManager.checkLoggedIn()) {
-
+            splashView.loadReferral();
         }
     }
 }

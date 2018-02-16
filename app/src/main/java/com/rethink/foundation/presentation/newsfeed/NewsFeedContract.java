@@ -1,24 +1,21 @@
-package com.rethink.foundation.presentation.splash;
+package com.rethink.foundation.presentation.newsfeed;
 
 import com.rethink.foundation.presentation.BasePresenter;
 import com.rethink.foundation.presentation.BaseView;
 
 /**
- * Created by zac on 13/02/18.
+ * Created by zac on 16/02/18.
  */
 
-public interface SplashContract {
+public interface NewsFeedContract {
 
     interface View extends BaseView<Presenter> {
 
-        void loadReferral();
 
-        void loadProfile();
-
-        void loadNews();
     }
 
     interface Presenter extends BasePresenter {
-        void checkFirstTime();
+
+
     }
 }

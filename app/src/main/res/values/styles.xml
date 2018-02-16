@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!-- <item name="android:background">@color/SalesXWhite</item>
+         &lt;!&ndash; <item name="android:homeAsUpIndicator">@drawable/ic_menu_camera</item>&ndash;&gt;
+         <item name="colorControlNormal">@color/SalesXBlue</item>
+         <item name="actionMenuTextColor">@color/SalesXBlue</item>-->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

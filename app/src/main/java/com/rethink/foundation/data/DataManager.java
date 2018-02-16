@@ -41,7 +41,7 @@ public class DataManager {
         this.dataCallBack = callBack;
     }
 
-    public boolean checkFirstTime() {
+    public boolean checkLoggedIn() {
         return true;
     }
 }

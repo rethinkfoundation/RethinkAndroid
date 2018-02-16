@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.rethink.foundation.Injection;
 import com.rethink.foundation.R;
 import com.rethink.foundation.presentation.profile.ProfileActivity;
 import com.rethink.foundation.presentation.referral.ReferralActivity;
@@ -17,9 +16,9 @@ public class SplashActivity extends AppCompatActivity implements SplashContract.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SplashPresenter splashPresenter = new SplashPresenter(
+       /* SplashPresenter splashPresenter = new SplashPresenter(
                 Injection.provideDataManager(getApplicationContext()), this);
-
+*/
         presenter.checkFirstTime();
     }
 
@@ -46,5 +45,10 @@ public class SplashActivity extends AppCompatActivity implements SplashContract.
         Intent i = new Intent(SplashActivity.this, ProfileActivity.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    public void loadNews() {
+
     }
 }
