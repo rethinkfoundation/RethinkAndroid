@@ -17,17 +17,7 @@ android {
         }
     }
 
-    flavorDimensions "default"
 
-    productFlavors {
-        prod {
-            dimension "default"
-        }
-        mock {
-            dimension "default"
-            applicationIdSuffix = ".mock"
-        }
-    }
 }
 
 dependencies {

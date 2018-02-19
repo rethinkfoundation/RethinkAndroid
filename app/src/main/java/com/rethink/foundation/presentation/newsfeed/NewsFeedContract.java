@@ -16,6 +16,6 @@ public interface NewsFeedContract {
 
     interface Presenter extends BasePresenter {
 
-
+        void loadData();
     }
 }

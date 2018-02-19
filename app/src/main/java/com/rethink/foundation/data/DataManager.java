@@ -7,6 +7,8 @@ import com.rethink.foundation.data.local.LocalDataManager;
 import com.rethink.foundation.data.preference.PreferenceManager;
 import com.rethink.foundation.data.remote.RemoteDataManager;
 
+import io.reactivex.Observable;
+
 /**
  * Created by zac on 12/02/18.
  */
@@ -43,5 +45,11 @@ public class DataManager {
 
     public boolean checkLoggedIn() {
         return true;
+    }
+
+    public Observable<String> getResultFromObservable(int a, int b) {
+        int result=a+b;
+
+        return Observable.just(result+"");
     }
 }
